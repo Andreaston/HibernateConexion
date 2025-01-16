@@ -10,5 +10,10 @@
         <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
         <property name="hibernate.dialect.storage_engine">innodb</property>
         <property name="hibernate.show_sql">true</property>
+
+        <!--  mapping de las clases-->
+        <mapping class="entidades.Dpt"/>
+        <mapping class="entidades.Empleados"/>
+
     </session-factory>
 </hibernate-configuration>
